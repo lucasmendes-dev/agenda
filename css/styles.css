@@ -1,0 +1,115 @@
+.navbar-brand img {
+    width: 50px;
+}
+
+#main-title {
+    margin: 15px 0 30px;
+    text-align: center;
+}
+
+#contacts-table {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#contacts-table thead {
+    color: #fff;
+    background-color: #007bff;
+}
+
+.actions {
+    text-align: right;
+    width: 150px;
+}
+
+.actions i {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.check-icon {
+    color: #1e7e34;
+}
+
+.edit-icon {
+    color: #007bff;
+}
+
+.delete-icon {
+    color: #bd2130;
+}
+
+.delete-form {
+    display: inline-block;
+}
+
+.delete-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.col-id {
+    font-weight: bold;
+}
+
+#empty-list-text {
+    text-align: center;
+}
+
+#msg {
+    color: #155724;
+    background-color: #D4EDDA;
+    border: #c3e6cb;
+    padding: 10px;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+/* SHOW CONTATCT */ /* SHOW CONTATCT */ /* SHOW CONTATCT */
+
+#view-contact-container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.bold {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+#back-link-container {
+    max-width: 500px;
+    display: block;
+    margin: 30px auto 0;
+}
+
+#back-link {
+    text-decoration: none;
+    border:1px solid #007bff;
+    padding: 5px;
+    border-radius: 5px;
+    color: #007bff;
+}
+
+.form-group,
+button {
+    margin-top: 15px;
+}
+
+#create-form,
+#edit-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* MOBILE */
+
+@media(max-width: 480px) {
+    #home-link{
+        display: none;
+    }
+}
+
